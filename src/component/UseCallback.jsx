@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from "react";
 
-export const UseCallback = () => {
+export const UseCallbackComponent = () => {
   const [count, setCount] = useState(0);
 
   const handleClick = useCallback(() => {
