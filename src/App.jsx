@@ -8,11 +8,14 @@ import ControlledForm from "./ControlledComponent"
 import Hooks from "./hooks"
 import Card from "./component/Card";
 import ExpensiveComponent from "./component/UseMemo";
-import { UseCallback } from "./component/UseCallback";
+import { UseCallbackComponent } from "./component/UseCallback";
 import CounterComponent from "./component/Counter";
 import FormWithValidation from "./component/FormWithValidation";
 import { ModuleCss } from "./component/cssModules/ModuleCss";
 import StyledComponent, { StyledButton } from "./component/styledComponent";
+import EventPropagation from "./component/events/EventPropagation";
+import AllEvents from "./component/events/AllEvents";
+import { DragNDrop } from "./component/events/DragNDrop";
 
 function App() {
  const friuts=["pineapples","grapes","orange"]
@@ -46,10 +49,18 @@ const multipleElement= React.createElement(
 {/* <ExpensiveComponent/> */}
 
 {/* 29-07-2025 */}
-<FormWithValidation/>
+{/* <FormWithValidation/>
 <ModuleCss/>
+<StyledComponent/>
+<StyledButton>Hi</StyledButton> */}
+
+{/* 30-07-2025 */}
+
 {/* <StyledComponent/> */}
-<StyledButton>Hi</StyledButton>
+{/* 31-07-2025 */}
+{/* <EventPropagation/> */}
+{/* <AllEvents/> */}
+<DragNDrop/>
   </Fragment>
     
    
