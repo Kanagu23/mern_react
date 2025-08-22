@@ -16,6 +16,11 @@ import StyledComponent, { StyledButton } from "./component/styledComponent";
 import EventPropagation from "./component/events/EventPropagation";
 import AllEvents from "./component/events/AllEvents";
 import { DragNDrop } from "./component/events/DragNDrop";
+import DragAndDropPreview from "./component/events/DragAndDropPreview";
+import FetchComponent from "./component/DataFetch/fetch";
+import AxiosComponent from "./component/DataFetch/axios";
+import RouterExample from "./component/react-router/router";
+import { BrowserRouter } from "react-router";
 
 function App() {
  const friuts=["pineapples","grapes","orange"]
@@ -60,7 +65,17 @@ const multipleElement= React.createElement(
 {/* 31-07-2025 */}
 {/* <EventPropagation/> */}
 {/* <AllEvents/> */}
-<DragNDrop/>
+{/* <DragNDrop/> */}
+{/* <DragAndDropPreview/> */}
+
+{/* 21-08-2025 */}
+{/* <FetchComponent/> */}
+{/* <AxiosComponent/>
+<h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1> */}
+
+  <RouterExample/>
   </Fragment>
     
    
