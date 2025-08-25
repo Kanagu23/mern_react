@@ -21,6 +21,7 @@ import FetchComponent from "./component/DataFetch/fetch";
 import AxiosComponent from "./component/DataFetch/axios";
 import RouterExample from "./component/react-router/router";
 import { BrowserRouter } from "react-router";
+import Routings from "./component/react-router/routings";
 
 function App() {
  const friuts=["pineapples","grapes","orange"]
@@ -75,7 +76,9 @@ const multipleElement= React.createElement(
     Hello world!
   </h1> */}
 
-  <RouterExample/>
+  {/* <RouterExample/> */}
+  {/* 25-08-2025 */}
+  <Routings/>
   </Fragment>
     
    
