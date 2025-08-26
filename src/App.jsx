@@ -22,6 +22,7 @@ import AxiosComponent from "./component/DataFetch/axios";
 import RouterExample from "./component/react-router/router";
 import { BrowserRouter } from "react-router";
 import Routings from "./component/react-router/routings";
+import SecureRoutes from "./component/react-router/protectedRoutes";
 
 function App() {
  const friuts=["pineapples","grapes","orange"]
@@ -78,7 +79,8 @@ const multipleElement= React.createElement(
 
   {/* <RouterExample/> */}
   {/* 25-08-2025 */}
-  <Routings/>
+  {/* <Routings/> */}
+  <SecureRoutes/>
   </Fragment>
     
    
